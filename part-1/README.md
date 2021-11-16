@@ -13,7 +13,7 @@ Generics let you pass Types as a parameter to another block (function, class, in
 type MyFunction<TArgs, TReturn> = (args: TArgs) => TReturn;
 
 const numToString: MyFunction<number, string> = num => num.toString();
-//                '---------> take `number` and return `string`
+//         '---------> take `number` and return `string`
 ```
 
 so type `MyFunction` now take two generics to describe the args type and the return type.
@@ -26,7 +26,7 @@ type MyFunction<TArgs extends { a: unknown }, TReturn = TArgs['a']> = (
 ) => TReturn;
 
 const numToString: MyFunction<{ a: number }> = obj => obj.a;
-//                '-------> return `number`
+//         '-------> return `number`
 ```
 
 this infer the developer to use a arg that have `(a)` property and the return type will be the same type of this `(a)` property.
