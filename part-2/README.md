@@ -95,7 +95,7 @@ but wait until you see this concept.
 
 ---
 
-## Lateral Type
+## Literal Type
 
 Oh. in my opinion this is one of the most powerful concepts in typescript...
 
@@ -114,7 +114,7 @@ Is this possible in any other typed language?
 
 **ABSOLUTELY NOT!**
 
-this what's called _lateral type_, in this type you can build up an whole new type by mixing stuff and shape it as you want.
+this what's called _literal type_, in this type you can build up an whole new type by mixing stuff and shape it as you want.
 
 let's put this ALL together to build a real life application.
 
